@@ -1,4 +1,4 @@
-import { sum , sub } from "./calc.js";
+import { sum , sub    } from "./calc.js";
 
 console.log("Hello world");
 
