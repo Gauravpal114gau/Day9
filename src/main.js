@@ -1,10 +1,11 @@
-console.log(" Hello1");
-console.log(" Hello2");
+ async function hello() {
+    console.log("Hello 1");
+} 
+ 
+console.log("Hello 1");
 
-setTimeout(() => console.log("Hello2.5"), 1000);
-console.log(" Hello3");
-console.log(" Hello4");
-console.log(" Hello5");
+hello();
+console.log("Hello 3");
 
 
 
